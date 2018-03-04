@@ -1,6 +1,6 @@
 # X-Team 18 Style Guide
 
-<brief description of your team's opinion or philosophy regarding Style Guides>
+We will be following the CS400 style guide for programming in Java. 
 
 ## Naming conventions
 

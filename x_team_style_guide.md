@@ -12,24 +12,24 @@
 
 ### Examples
 * interfaces
- public interface SearchTreeADT {}
+    * public interface SearchTreeADT {}
 * classes
- public class BalancedSearchTree {}
+    * public class BalancedSearchTree {}
 * exception types
- EmptyQueueException
+    * EmptyQueueException
 * fields
- private int heightOfTree;
+    * private int heightOfTree;
 * methods
- public void test01_isEmpty_on_empty_tree() {}
- public String toString() {}
+    * public void test01_isEmpty_on_empty_tree() {}
+    * public String toString() {}
 * parameters
- (Treenode<T> rootOfSubtree)
+    * (Treenode<T> rootOfSubtree)
 * local variables
- int leftNodeIndex;
+    * int leftNodeIndex;
 * instance constants
- private final double exponentIncrement;
+    * private final double exponentIncrement;
 * class constants
- private static final double piValue = 3.14;
+    * private static final double piValue = 3.14;
 
 
 ## Commenting style for public and private members of a class or interface:
@@ -43,47 +43,47 @@
 ### Examples
 
 * classes
- // inner node class to store key items and links to other nodes
-protected class Treenode<K extends Comparable<K>> {}
+    * // inner node class to store key items and links to other nodes
+    * protected class Treenode<K extends Comparable<K>> {}
 * fields
- // pointer node to parent node of current state
- private State pointer;
+    * // pointer node to parent node of current state
+    * private State pointer;
 * constructors
- // constructs a Treenode with item as key and null for left and right children
- public Treenode(K item) {
-     this(item, null, null);
- }
+    * // constructs a Treenode with item as key and null for left and right children
+    * public Treenode(K item) {
+        * this(item, null, null);
+    * }
 * methods
- // rotates subtree of node left using algorithm from class
- private Treenode<T> leftRot(Treenode<T> node) {}
+    * // rotates subtree of node left using algorithm from class
+    * private Treenode<T> leftRot(Treenode<T> node) {}
 
 
 * coding style (brackets, horizontal, and vertical spacing) for:
   * if statements
-   if(( bool && (3 >= 5)) || !boolValue) {
-       intValue = 5;
-   } else {
-       return;
-   }
+      * if(( bool && (3 >= 5)) || !boolValue) {
+          * intValue = 5;
+      * } else {
+          * return;
+      * }
   * switch statement
-   switch (month) {
-            case 1:  monthString = "January";
-                     break;
-            case 2:  monthString = "February";
-                     break;
-            default: monthString = "Invalid month";
-                     break;
-   }
+      * switch (month) {
+          * case 1:  monthString = "January";
+              * break;
+          * case 2:  monthString = "February";
+              * break;
+          * default: monthString = "Invalid month";
+              * break;
+      * }
   * while loops
-   while(true) {
-       intValue++;
-   }
+      * while(true) {
+          * intValue++;
+      * }
   * for loops
-   for(int i = 0; i < str.length; i++) {
-       array.add(i);
-   }
+      * for(int i = 0; i < str.length; i++) {
+          * array.add(i);
+      * }
   * enhanced for loops
-   for(State successor : successors) {
-       stack.push(successor);
-   }
+      * for(State successor : successors) {
+          * stack.push(successor);
+      * }
   

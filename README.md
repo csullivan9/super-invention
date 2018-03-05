@@ -5,7 +5,7 @@
    * What are the GitHub usernames of your team members?
        * GitHub username 1: btang12 - Brian Tang
        * GitHub username 2: SeanXiaoyuSun - Xiaoyu Sun 
-       * GitHub username 3:
+       * GitHub username 3: csullivan9 - Chris Sullivan
        * GitHub username 4:
        * GitHub username 5:
    * When did you complete this exercise? 
